@@ -6,14 +6,21 @@
   "repository": "",
   "author": "",
   "license": "",
-  "private": false,
+  "private": true,
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
   },
   "dependencies": {
+    "connect": "^3.7.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "file-loader": "^6.2.0",
     "react": "16.8.4",
-    "react-dom": "16.8.4"
+    "react-dom": "16.8.4",
+    "react-modal": "^3.14.4",
+    "regenerator-runtime": "^0.13.9",
+    "url-loader": "^4.1.1"
   },
   "devDependencies": {
     "babel-core": "6.26.*",
